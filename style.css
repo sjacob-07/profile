@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Roboto&display=swap');
+
+
+
+body {
+  background-color: #D8D3CB;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  color: #90323D;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2 {
+  color: #4B3B47;
+  padding-bottom: 5px;
+}
+
+p {
+}
+
+a {
+  text-decoration: none;
+  color: #5E0B15;
+}
+
+a:hover {
+  color: #90323D;
+}
+
+div {
+
+  border-radius: 5px;
+}
+
+#intro {background: white;
+  padding: 0px;
+  padding: 35px;
+
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  line-style: none;
+  text-align: center;
+
+}
+.card {
+  background: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid lightgrey;
+/*  margin: 30px auto;
+*/  box-shadow: 0 2px 2px rgba(0,0,0,.1);
+  line-style: none;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  border-radius: 4px;
+}
+
+
+img {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.icon {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.btn-red {
+  background-color: #E9AFA3;
+  color: #5E0B15;
+  padding: 10px 35px;
+  border-radius: 4px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.btn-red:hover {
+  background-color: #90323D;
+  color: white;
+
+}
+
+span.emoji{
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 50px;
+}
+
+#emoji-line {
+  color: #90323D;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picture {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+}
+.picture .img-top {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.picture:hover .img-top {
+  display: inline;
+}
+
+.picture:hover .static-image {
+  opacity: 0;
+}
